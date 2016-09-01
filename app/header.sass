@@ -1,0 +1,61 @@
+@import "bourbon"
+@import "sass/vars"
+@import "sass/base"
+
+//First screen styles
+.container
+  max-width: 1180px
+  margin: auto
+
+.header
+  height: 900px
+  background: url("../img/bg-header.jpg") no-repeat top center 
+  background-size: 100%
+
+  p
+    margin: 0
+
+  &__title
+    width: 50%
+    padding-right: 1%
+
+    h1
+      font-size: em(72px)
+      font-weight: $fira-light
+      line-height: 1.2em
+      margin-top: 0
+
+    p
+      font-size: em(30px)
+      font-weight: $fira-light
+
+.main-menu
+  +clearfix
+  padding-top: 90px
+  margin-bottom: 200px
+
+  &__nav
+    float: right
+    text-align: center
+    .fa
+      font-size: 25px
+    p
+      text-transform: uppercase
+      font-size: em(12px)
+    a
+      color: black
+      text-decoration: none
+
+.logo
+  float: left
+  text-decoration: none
+  text-align: center
+  font-size: 60px
+  font-weight: bold
+  line-height: 90px
+  p
+    width: 80px
+    height: 80px
+    background-color: black
+    color: white
+

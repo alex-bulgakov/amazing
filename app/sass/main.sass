@@ -1,0 +1,38 @@
+@import "bourbon"
+@import "vars"
+@import "libs"
+
+//Custom styles here
+.content
+  
+  position: relative
+  &__block
+    +clearfix
+
+    &--1
+      .content__bg
+        position: absolute
+        left: 0
+        width: 50%
+        height: 500px
+        background: url("../img/bg-block1.jpg") no-repeat left
+      .content__text
+        float: right
+        padding-left: 50px
+        padding-top: 106px
+        padding-bottom: 120px
+        width: 50%
+        font-size: em(36px)
+        line-height: 1.2em
+        font-weight: $fira-light
+
+        h2
+          margin-top: 0
+          font-size: .9em
+          text-transform: uppercase
+          font-weight: $fira-bold
+
+        p
+          margin: 0
+
+@import "media"
