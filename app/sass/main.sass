@@ -18,13 +18,16 @@
         background: url("../img/bg-block1.jpg") no-repeat left
       .content__text
         float: right
+        max-height: 500px
         padding-left: 50px
+        padding-right: 50px
         padding-top: 106px
         padding-bottom: 120px
         width: 50%
         font-size: em(36px)
         line-height: 1.2em
         font-weight: $fira-light
+        background-color: #f3f1ef
 
         h2
           margin-top: 0
@@ -34,5 +37,29 @@
 
         p
           margin: 0
+    
+    &--2
+      .content
+        &__bg
+          float: left
+          width: 25%
+          height: 515px
 
+          &--1
+            background: url("../img/bg-block2-1.jpg") no-repeat
+
+          &--2
+            background: url("../img/bg-block2-2.jpg") no-repeat
+
+          &--3
+            background: url("../img/bg-block2-3.jpg") no-repeat
+
+          &--4
+            background: url("../img/bg-block2-4.jpg") no-repeat
+
+    &--3
+      background-color: #3f729b
+
+      h2
+        margin: 0
 @import "media"
