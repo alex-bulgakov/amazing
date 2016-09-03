@@ -58,8 +58,29 @@
             background: url("../img/bg-block2-4.jpg") no-repeat
 
     &--3
-      background-color: #3f729b
+      background: #3f729b 
+      .content__bg
+        float: left
+        width: 25%
+        background: url("../img/bg-block3.jpg") no-repeat
+        height: 520px
+
+      .content__text
+        float: left 
+        width: 50%
+        padding: 100px 0
+        padding-right: 90px
+        color: white
 
       h2
         margin: 0
+        font-size: em(24px)
+        text-transform: uppercase
+        font-weight: $fira-bold
+
+      p
+        font-size: em(36px)
+        font-weight: $fira-light
+        line-height: 1.3em
+        margin-bottom: 50px
 @import "media"
