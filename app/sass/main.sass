@@ -83,4 +83,134 @@
         font-weight: $fira-light
         line-height: 1.3em
         margin-bottom: 50px
+
+    &--4
+      overflow: hidden
+      background: linear-gradient(to right, #282b2f 25%, transparent 25%) ,url("../img/bg-block4.jpg") no-repeat
+
+      height: 900px
+      .content__text
+        width: 25%
+        margin-left: 25%
+        padding: 90px 60px
+        color: #2ebd59
+        background-color: #212227
+        h2
+          margin: 0
+          font-size: em(24px)
+          text-transform: uppercase
+
+        h3
+          margin: 0
+          text-transform: uppercase
+          font-weight: $fira-light
+          margin-bottom: 20px
+          font-size: em(18px)
+
+        p
+          color: white
+
+        .btn
+          border-color: #2ebd59
+          color: #2ebd59
+
+    &--5
+      background: linear-gradient(to right, #2ebd59 50%, #282b2f 50%)
+      .content__text
+        float: left
+        padding: 135px 50px
+        width: 50%
+        color: white
+
+        &--1
+          padding-left: 0
+
+        h2
+          font-size: em(24px)
+          text-transform: uppercase
+          margin-top: 0
+
+        p
+          font-size: em(36px)
+          font-weight: $fira-light
+
+.footer
+  +clearfix
+  background: #212227
+  color: white
+  padding: 95px 0
+
+  &__item
+    float: left
+    width: 33.33%
+    padding-right: 50px
+
+  h2
+    margin-top: 0
+    margin-bottom: 25px
+    font-size: em(18px)
+    text-transform: uppercase
+
+  p
+    font-size: em(14px)
+    font-weight: $fira-light
+    opacity: .3
+
+  a
+    color: white
+    text-decoration: none
+
+    &:hover, &:active
+      text-decoration: underline
+
+  .follow-links
+    margin-top: 70px
+    ul, li
+      padding: 0
+      list-style-type: none
+
+    .fa
+      width: 30px
+
+    a
+      opacity: .3
+      text-transform: uppercase
+      font-weight: $fira-bold
+
+  .caps
+    text-transform: uppercase
+    font-weight: $fira-bold
+
+  input
+    width: 100%
+    padding: 15px
+    border: none
+    background-color: #4d4e52
+    color: white
+    font-weight: $fira-bold
+
+    &:focus
+      outline: none
+
+  form
+    position: relative
+    margin-bottom: 70px
+    .fa
+      position: absolute
+      top: 15px 
+      right: 10px
+      opacity: .3
+
+  .sponsors
+    a
+      display: inline-block
+      width: 80px
+      height: 80px
+      margin-right: 10px
+      padding-top: 25px 
+      border: 2px solid white
+      text-align: center
+
+
+
 @import "media"
