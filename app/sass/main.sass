@@ -14,15 +14,11 @@
         position: absolute
         left: 0
         width: 50%
-        height: 500px
+        min-height: 500px
         background: url("../img/bg-block1.jpg") no-repeat left
       .content__text
         float: right
-        max-height: 500px
-        padding-left: 50px
-        padding-right: 50px
-        padding-top: 106px
-        padding-bottom: 120px
+        padding: 85px 50px
         width: 50%
         font-size: em(36px)
         line-height: 1.2em
@@ -88,7 +84,7 @@
       overflow: hidden
       background: linear-gradient(to right, #282b2f 25%, transparent 25%) ,url("../img/bg-block4.jpg") no-repeat
 
-      height: 900px
+      min-height: 900px
       .content__text
         width: 25%
         margin-left: 25%
@@ -109,6 +105,7 @@
 
         p
           color: white
+          margin-bottom: 40px
 
         .btn
           border-color: #2ebd59
@@ -211,6 +208,16 @@
       border: 2px solid white
       text-align: center
 
+
+#mmenu
+  background-color: #fff !important
+  li
+    font-size: em(20px)
+    text-transform: uppercase
+    font-weight: $fira-light
+
+  a:hover
+    background-color: rgba(0, 0, 0, .1)
 
 
 @import "media"
